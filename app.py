@@ -188,6 +188,57 @@ def main():
         display_applications_table(df)
     else:
         st.info("No applications found. Add your first application to get started!")
+    # Stylish Footer
+    st.markdown("---")
+    st.markdown("""
+    <div style="
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        padding: 30px 20px;
+        border-radius: 15px;
+        text-align: center;
+        margin-top: 50px;
+        color: white;
+        box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+    ">
+        <div style="
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            animation: pulse 2s infinite;
+        ">🙏</div>
+        <div style="
+            font-size: 1.4em;
+            font-weight: 600;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        ">Dowa chai bhai</div>
+        <div style="
+            font-size: 1em;
+            opacity: 0.9;
+            font-style: italic;
+        ">Keep Hunting 🌟</div>
+        <div style="
+            margin-top: 20px;
+            font-size: 0.9em;
+            opacity: 0.8;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            padding-top: 15px;
+        ">
+            Built with ❤️ using Streamlit | © 2025 ShagatoApple
+        </div>
+    </div>
+    
+    <style>
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+        100% { transform: scale(1); }
+    }
+    
+    .stMarkdown div[data-testid="stMarkdownContainer"] p {
+        margin-bottom: 0;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
 def show_application_form():
     """Display the add/edit application form."""
@@ -387,3 +438,4 @@ def display_applications_table(df):
 if __name__ == "__main__":
 
     main()
+
