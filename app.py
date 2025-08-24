@@ -84,8 +84,8 @@ def main():
     # Header
     st.markdown("""
     <div class="main-header">
-        <h1>🎯 Job Application Tracker</h1>
-        <p>Stay organized and land your dream job</p>
+        <h1>🎯 Shagato's Applications</h1>
+        <p>bhai overthinking koris na, kichu ekta manage hobe</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -385,4 +385,5 @@ def display_applications_table(df):
                     st.error("Failed to delete application.")
 
 if __name__ == "__main__":
+
     main()
