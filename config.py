@@ -6,7 +6,7 @@ DATABASE_PATH = Path("job_applications.db")
 DATABASE_URL = f"sqlite:///{DATABASE_PATH}"
 
 # Streamlit configuration
-PAGE_TITLE = "🎯 Job Application Tracker"
+PAGE_TITLE = "Matha-e-Nosto"
 PAGE_ICON = "🎯"
 LAYOUT = "wide"
 
@@ -37,3 +37,4 @@ STATUS_COLORS = {
     "Withdrawn": "#6b7280",
     "Follow-up": "#8b5cf6"
 }
+
