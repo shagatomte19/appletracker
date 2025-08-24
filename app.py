@@ -204,7 +204,7 @@ def main():
             font-size: 2.5em;
             margin-bottom: 15px;
             animation: pulse 2s infinite;
-        ">🙏</div>
+        ">🤲</div>
         <div style="
             font-size: 1.4em;
             font-weight: 600;
@@ -438,4 +438,5 @@ def display_applications_table(df):
 if __name__ == "__main__":
 
     main()
+
 
