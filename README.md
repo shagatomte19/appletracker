@@ -1,4 +1,4 @@
-"""
+
 # Job Application Tracker
 
 A comprehensive job application tracking system built with Streamlit and SQLite.
@@ -274,4 +274,4 @@ This project is open source and available under the MIT License.
 - v1.2.0: Email notifications
 - v1.3.0: Calendar integration
 - v2.0.0: Multi-user support with PostgreSQL
-"""
+
